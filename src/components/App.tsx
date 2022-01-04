@@ -1,15 +1,14 @@
 import React from "react";
 import Navebar from "./Navbar";
-
+import ToDoList from "./ToDoList";
 
 const App = () => {
   return (
-    <div>
-        <Navebar></Navebar>
-        PRA CIMA!!!
-        
+    <div className="uk-container">
+      <Navebar></Navebar>
+      <ToDoList></ToDoList>
+      PRA CIMA!!!
     </div>
-    
   );
 };
 
